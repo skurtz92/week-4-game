@@ -1,0 +1,81 @@
+
+body {
+	background: url(../images/cattrip.jpg);
+	
+}
+#screen {
+	overflow: auto;
+}
+#screen div {
+	float: left;
+}
+
+#title{
+	color: white;
+	background: chocolate;
+	width: 300px;
+	padding: 4px;
+	margin-bottom: 10px;
+}
+#rules{
+	background: #F0FFFF;
+	width: 400px;
+	height: 400px;
+	color: green;
+	padding: 4px;
+	margin-bottom: 10px;
+	border-radius: 30px;
+	text-align: center;
+}
+#random-area {
+	background: mediumseagreen;
+	width: 200px;
+	height: 100px;
+	color: ghostwhite;
+	padding: 4px;
+}
+#random-number {
+	color: purple;
+	font-size: 3vw;
+}
+#score-spot {
+	background: darkcyan;
+	width: 210px;
+	height: 100px;
+	color: ghostwhite;
+	padding: 4px;
+}
+#score-title {
+	color: white;
+	background: darkcyan;
+	width: 210px;
+	padding: 4px;
+	margin-bottom: 10px;
+}
+.cats-button {
+	display: inline;
+}
+.cats-img {
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	border: solid;
+	border-color: lightblue;
+	cursor: pointer;
+}
+#score-number{
+	font-size: 3vw; /* 1vw= 1/100 of current viewport width, i.e. 1% of width  */
+}
+
+#winSpot {
+	height: 100px;
+	padding: 15px;
+	border-radius: 200px;
+	margin-left: 75px;
+	margin-bottom: 10px;
+	background-color: #FF69B4;
+}
+
+#winSpot p {
+	color: color: ghostwhite;
+}
